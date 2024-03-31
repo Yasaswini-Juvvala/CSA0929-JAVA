@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login page</title>
+<body bgcolor="pink" align="center">
+<h1>online hospital booking appoinment system</h1>
+<a href="opp.html">login</a>
+</body>
+</head>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>appoinment details</title>
+        <body bgcolor="pink" align="center" >
+        <h1> online hospital booking appoinment system</h1>
+            Email:<br>
+             <input type="text" name="email"><br>
+             password:<br>
+             <input type="number" name="number"><br>
+              <a href="doc.html">enter</a>
+             <input type="submit" value="login">
+        </body>
+    </head>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Appointment Booking</title>
+</head>
+<body bgcolor="green" align="center">
+    <header>
+        <h1>Hospital Appointment Booking System</h1>
+    </header>
+    
+    <main>
+        <section id="search">
+            <h2>Search for Hospitals</h2>
+            <form action="#" method="GET">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter location">
+                
+                <label for="specialty">Specialty:</label>
+                <select id="specialty" name="specialty">
+                    <option value="cardiology">Cardiology</option>
+                    <option value="dermatology">Dermatology</option>
+                    <option value="orthopedics">Orthopedics</option>
+                    <!-- Add more specialties as needed -->
+                </select>
+                
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        
+        <section id="appointment-booking">
+            <h2>Book Appointment</h2>
+            <form action="#" method="POST">
+                <label for="doctor">Doctor:</label>
+                <select id="doctor" name="doctor">
+                    <option value="doc1">Dr.yasaswini</option>
+                    <option value="doc2">Dr.pragna</option>
+                    <option value="doc1">Dr.jathin</option>
+                    <option value="doc2">Dr.vinitha</option>
+                    <option value="doc1">Dr.abhigna</option>
+                    <option value="doc2">Dr.phani</option>
+
+
+                    <!-- Add more doctors dynamically based on search results -->
+                </select>
+                
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+                
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time">
+                
+                <button type="submit">Book Appointment</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Hospital Appointment Booking System</p>
+    </footer>
+<a href="booked.html">book appionment</a>
+</body>
+</html>
+
+
+online train:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>train</title>
+        <body  align="center" >
+        <h1>train reservation system</h1>
+        <a href="pra.html">login</a>
+        </body>
+    </head>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>train</title>
+        <body  align="center" >
+        <h1>train reservation system</h1>
+        <form action="file:///C:/xampp/htdocs/login/son.html">
+            username:<br>
+             <input type="text" name="username"><br>
+             password:<br>
+             <input type="number" name="number"><br>
+             <input type="submit" value="login">
+        </form>
+        </body>
+    </head>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>train</title>
+        <body  align="center" >
+        <h1>train reservation system</h1>
+        <form action="file:///C:/xampp/htdocs/login/sru.html">
+    
+             <input type="search trains" id="search" name="search trains" value="search trains">
+        </form>
+        </body>
+    </head>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>train</title>
+        <body>
+        <h1>train reservation system</h1>
+        <form action="sra.html">
+        <table>
+       <tr>
+        <th>available trains</td>
+        <td>date</td>
+        <td>source</td>
+        <td>destination</td> 
+        <td>start</td> 
+        <td>reached</td>
+       </tr>
+       <tr>
+        <td>peanakini</td>
+        <td>28-3-2024</td>
+        <td>chennai</td>
+        <td>kadapa</td> 
+        <td>6.00 am</td>
+        <td>1.00 pm</td> 
+        <td> <input type="submit" value="Book" ></td>
+       </tr>
+    
+       <td>hyd express</td>
+        <td>28-3-2024</td>
+        <td>chennai</td>
+        <td>ongole</td> 
+        <td>12.00 am</td>
+        <td>6.00 pm</td>
+        <td> <input type="submit" value="Book"></td>
+        </tr>
+      
+    </table>
+</form>
+        </body>
+    </head>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>train</title>
+        <body >
+        <h1>train reservation system</h1>
+        <form action="booking details.php" method="post">
+    name:<br>
+    <input type="text" name="username"><br>
+    age:<br>
+    <input type="number" name="number"><br>
+    <label for="gender">gender</label><br>
+    <input type="radio" id="gender" name="gender" value="male">male<br>
+    <input type="radio" id="gender" name="gender" value="female">female<br>
+    berth performance:<br>
+    <input type="radio" id="performance" name="berth_performance" value="side lower">side lower<br>
+    <input type="radio" id="performance" name="berth_performance" value="middle">middle<br>
+    <input type="radio" id="performance" name="berth_performance" value="upper">upper<br>
+    <input type="radio" id="performance" name="berth_performance" value="side upper">side upper<br><br>
+     <input type="submit" value="proceed to pay">
+        </form>
+        </body>
+    </head>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>train</title>
+    
+      <h1>payment successfully</h1>
+        </body>
+    </head>
+</html>
+
+
+
+
+
